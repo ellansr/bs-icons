@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'bs-icons';
+  src:  url('fonts/bs-icons.eot?jeg87l');
+  src:  url('fonts/bs-icons.eot?jeg87l#iefix') format('embedded-opentype'),
+    url('fonts/bs-icons.ttf?jeg87l') format('truetype'),
+    url('fonts/bs-icons.woff?jeg87l') format('woff'),
+    url('fonts/bs-icons.svg?jeg87l#bs-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bs-icon"], [class*=" bs-icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bs-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bs-iconSave_open-(2):before {
+  content: "\e905";
+}
+.bs-iconbell:before {
+  content: "\e901";
+}
+.bs-iconsave:before {
+  content: "\e902";
+}
+.bs-iconsearch:before {
+  content: "\e903";
+}
+.bs-iconSave_open:before {
+  content: "\e904";
+}
+.bs-iconplane:before {
+  content: "\e900";
+}
+
